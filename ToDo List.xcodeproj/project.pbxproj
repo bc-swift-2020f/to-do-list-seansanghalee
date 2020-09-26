@@ -14,6 +14,7 @@
 		B38783C7251BC4EC004CE587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38783C5251BC4EC004CE587 /* Main.storyboard */; };
 		B38783C9251BC4ED004CE587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38783C8251BC4ED004CE587 /* Assets.xcassets */; };
 		B38783CC251BC4ED004CE587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38783CA251BC4ED004CE587 /* LaunchScreen.storyboard */; };
+		B3D30DA5251EE744004CAFAC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D30DA4251EE744004CAFAC /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B38783C8251BC4ED004CE587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38783CB251BC4ED004CE587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38783CD251BC4ED004CE587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D30DA4251EE744004CAFAC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				B38783BF251BC4EC004CE587 /* AppDelegate.swift */,
 				B38783C1251BC4EC004CE587 /* SceneDelegate.swift */,
+				B3D30DA4251EE744004CAFAC /* ToDoItem.swift */,
 				B38783C3251BC4EC004CE587 /* ToDoListViewController.swift */,
 				B385F6BB251BEEE000934604 /* ToDoDetailTableViewController.swift */,
 				B38783C5251BC4EC004CE587 /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				B38783C4251BC4EC004CE587 /* ToDoListViewController.swift in Sources */,
 				B38783C0251BC4EC004CE587 /* AppDelegate.swift in Sources */,
+				B3D30DA5251EE744004CAFAC /* ToDoItem.swift in Sources */,
 				B385F6BC251BEEE000934604 /* ToDoDetailTableViewController.swift in Sources */,
 				B38783C2251BC4EC004CE587 /* SceneDelegate.swift in Sources */,
 			);
