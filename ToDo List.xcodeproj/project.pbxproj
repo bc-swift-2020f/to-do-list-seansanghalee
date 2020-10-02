@@ -15,6 +15,7 @@
 		B38783C7251BC4EC004CE587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38783C5251BC4EC004CE587 /* Main.storyboard */; };
 		B38783C9251BC4ED004CE587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38783C8251BC4ED004CE587 /* Assets.xcassets */; };
 		B38783CC251BC4ED004CE587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38783CA251BC4ED004CE587 /* LaunchScreen.storyboard */; };
+		B3A06C61252757F30092E749 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A06C60252757F30092E749 /* ToDoItems.swift */; };
 		B3D30DA5251EE744004CAFAC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D30DA4251EE744004CAFAC /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		B38783C8251BC4ED004CE587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38783CB251BC4ED004CE587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38783CD251BC4ED004CE587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A06C60252757F30092E749 /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 		B3D30DA4251EE744004CAFAC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				B38783BF251BC4EC004CE587 /* AppDelegate.swift */,
 				B38783C1251BC4EC004CE587 /* SceneDelegate.swift */,
 				B3D30DA4251EE744004CAFAC /* ToDoItem.swift */,
+				B3A06C60252757F30092E749 /* ToDoItems.swift */,
 				B38783C3251BC4EC004CE587 /* ToDoListViewController.swift */,
 				B385F6BB251BEEE000934604 /* ToDoDetailTableViewController.swift */,
 				B31BA7952524F8B400EBC667 /* ListTableViewCell.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38783C4251BC4EC004CE587 /* ToDoListViewController.swift in Sources */,
+				B3A06C61252757F30092E749 /* ToDoItems.swift in Sources */,
 				B38783C0251BC4EC004CE587 /* AppDelegate.swift in Sources */,
 				B3D30DA5251EE744004CAFAC /* ToDoItem.swift in Sources */,
 				B385F6BC251BEEE000934604 /* ToDoDetailTableViewController.swift in Sources */,
